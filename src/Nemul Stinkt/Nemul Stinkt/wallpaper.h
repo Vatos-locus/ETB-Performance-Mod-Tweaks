@@ -1,4 +1,5 @@
 #pragma once
+#include "headers.h"
 
 #include <memory>
 #include <string>
@@ -6,7 +7,7 @@
 class Wallpaper
 {
 public:
-	Wallpaper();
+	Wallpaper(std::shared_ptr<Launcher> launcherINIT, const std::shared_ptr<Sound> soundINIT);
 	void SetWallpaperFromExecutable();
 
 
