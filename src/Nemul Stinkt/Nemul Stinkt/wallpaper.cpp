@@ -21,7 +21,7 @@ void Wallpaper::SetWallpaperFromExecutable()
     // Bild sollte sich im selben Verzeichnis wie das Executable befinden
     std::wstring::size_type pos = exePath.find_last_of(L"\\/");
     std::wstring basePath = (pos != std::wstring::npos) ? exePath.substr(0, pos + 1) : L"";
-    std::wstring imagePath = L"dmod.bmp"; // Hier der Name des Bildes
+    std::wstring imagePath = L"logo.bmp"; // Hier der Name des Bildes
 
     // Setze den Wallpaper-Stil auf "Fit"
     SetWallpaperStyle();
