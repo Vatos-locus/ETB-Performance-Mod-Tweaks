@@ -18,44 +18,34 @@
 
 #pragma comment(lib, "Shlwapi.lib")
 #pragma comment(lib, "winmm.lib")
-//steam://rungameid/1943950
-
-
 
 void wait(int ms) {
     std::this_thread::sleep_for(std::chrono::milliseconds(ms));
 }
 
-// Random
 int getRandom(int min, int max) {
     return rand() % (max - min + 1) + min;
 }
 
-// Animate Inject
 void animateInjecting() {
-    const int totalSteps = 20;  /
+    const int totalSteps = 20;
 
     std::cout << "[Mod Engine] Injecting performance mod..." << std::endl;
 
-    // Schrittweise Fortschrittsanzeige
     for (int i = 0; i <= totalSteps; ++i) {
-        int progress = i * 100 / totalSteps;  
-        int numHashes = i;  
+        int progress = i * 100 / totalSteps;
+        int numHashes = i;
 
-        
         std::cout << "\rInjecting... [" << std::string(numHashes, '#') << std::string(totalSteps - numHashes, ' ') << "] " << progress << "%";
-        std::cout.flush();  
-
-        wait(100);  
+        std::cout.flush();
+        wait(100);
     }
 
     std::cout << "\rInjecting... [####################] 100% Completed" << std::endl;
-    wait(1000);  
+    wait(1000);
 }
 
-// Game runn check
 bool isGameRunning(const std::string& appName) {
-    
     std::string command = "tasklist /FI \"IMAGENAME eq " + appName + "\"";
     FILE* pipe = _popen(command.c_str(), "r");
     if (!pipe) return false;
@@ -74,7 +64,7 @@ bool isGameRunning(const std::string& appName) {
 
 void updateConsole() {
     while (true) {
-        system("cls");  
+        system("cls");
 
         std::cout << "[Rendering Engine] Level of Detail: ULTRA" << std::endl;
         std::cout << "[Graphics] Shadow Quality: Enhanced" << std::endl;
@@ -88,12 +78,12 @@ void updateConsole() {
         std::cout << "\n[Status] Game Running - Memory: " << getRandom(2800, 4600)
             << " MB | Avg. FPS: " << getRandom(58, 144) << std::endl;
 
-        wait(2000); // Alle 2 Sekunden ein Update
+        wait(2000);
     }
 }
 
-int main() {
-    srand(time(0)); // Initialisiert den Zufallsgenerator
+void runModEngine() {
+    srand(static_cast<unsigned int>(time(0)));
 
     const char* appID = "1943950"; // Escape The Backrooms App ID
     std::string steamLaunchURL = "steam://rungameid/" + std::string(appID);
@@ -103,11 +93,11 @@ int main() {
 
     if ((int)result <= 32) {
         std::cerr << "[Error] Failed to launch game. App ID: " << appID << std::endl;
-        return 1;
+        return;
     }
 
-    wait(2000);  // Kurze Wartezeit nach dem Starten des Spiels
-    animateInjecting();  // Starte die Injecting-Animation
+    wait(2000);
+    animateInjecting();
 
     std::cout << "[Mod Engine] Escape The Backrooms Performance Mod Injected" << std::endl;
     wait(1000);
@@ -117,21 +107,24 @@ int main() {
     std::cout << "\n[Mod Engine] FPS Boost Enabled" << std::endl;
     std::cout << "[Mod Engine] Enjoy your game!" << std::endl;
 
-    // Starte den "Monitoring"-Thread, der die Konsole kontinuierlich aktualisiert
     std::thread consoleUpdateThread(updateConsole);
 
-    // Warten, bis das Spiel beendet ist und dann die Konsole schließen
     while (true) {
-        if (!isGameRunning("Backrooms.exe")) { 
+        if (!isGameRunning("Backrooms.exe")) {
             std::cout << "[Mod Engine] Game closed. Exiting..." << std::endl;
             break;
         }
-        wait(5000);  
+        wait(5000);
     }
 
-    
-    exit(0);
+    consoleUpdateThread.detach(); // Wichtig: Thread freigeben oder sauber beenden, hier detach für Demo
 }
 
+
+
+int main() {
+    runModEngine();
+    return 0;
+}
 
 
