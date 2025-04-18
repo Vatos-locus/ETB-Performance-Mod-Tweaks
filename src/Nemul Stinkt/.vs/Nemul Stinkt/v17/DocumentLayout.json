@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\wallpaper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|solutionrelative:Nemul Stinkt\\wallpaper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\wallpaper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|solutionrelative:Nemul Stinkt\\wallpaper.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\sound.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|solutionrelative:Nemul Stinkt\\sound.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\launcher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|solutionrelative:Nemul Stinkt\\launcher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\launcher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|solutionrelative:Nemul Stinkt\\launcher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\sound.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|solutionrelative:Nemul Stinkt\\sound.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|solutionrelative:Nemul Stinkt\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\headers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78CDBDAE-92CA-49BB-8E51-E1C2D29EF542}|Nemul Stinkt\\Nemul Stinkt.vcxproj|solutionrelative:Nemul Stinkt\\headers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "headers.h",
+              "DocumentMoniker": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\headers.h",
+              "RelativeDocumentMoniker": "Nemul Stinkt\\headers.h",
+              "ToolTip": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\headers.h",
+              "RelativeToolTip": "Nemul Stinkt\\headers.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-18T17:45:48.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "wallpaper.h",
+              "DocumentMoniker": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\wallpaper.h",
+              "RelativeDocumentMoniker": "Nemul Stinkt\\wallpaper.h",
+              "ToolTip": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\wallpaper.h",
+              "RelativeToolTip": "Nemul Stinkt\\wallpaper.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-18T17:44:40.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sound.h",
+              "DocumentMoniker": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\sound.h",
+              "RelativeDocumentMoniker": "Nemul Stinkt\\sound.h",
+              "ToolTip": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\sound.h",
+              "RelativeToolTip": "Nemul Stinkt\\sound.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-18T17:44:29.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launcher.h",
+              "DocumentMoniker": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\launcher.h",
+              "RelativeDocumentMoniker": "Nemul Stinkt\\launcher.h",
+              "ToolTip": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\launcher.h",
+              "RelativeToolTip": "Nemul Stinkt\\launcher.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-18T17:44:07.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "sound.cpp",
+              "DocumentMoniker": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\sound.cpp",
+              "RelativeDocumentMoniker": "Nemul Stinkt\\sound.cpp",
+              "ToolTip": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\sound.cpp",
+              "RelativeToolTip": "Nemul Stinkt\\sound.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-18T17:43:55.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launcher.cpp",
+              "DocumentMoniker": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\launcher.cpp",
+              "RelativeDocumentMoniker": "Nemul Stinkt\\launcher.cpp",
+              "ToolTip": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\launcher.cpp",
+              "RelativeToolTip": "Nemul Stinkt\\launcher.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-18T17:43:23.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "wallpaper.cpp",
+              "DocumentMoniker": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\wallpaper.cpp",
+              "RelativeDocumentMoniker": "Nemul Stinkt\\wallpaper.cpp",
+              "ToolTip": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\wallpaper.cpp",
+              "RelativeToolTip": "Nemul Stinkt\\wallpaper.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-18T17:43:10.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\main.cpp",
+              "RelativeDocumentMoniker": "Nemul Stinkt\\main.cpp",
+              "ToolTip": "C:\\Users\\billf\\source\\repos\\Nemul Stinkt\\Nemul Stinkt\\main.cpp",
+              "RelativeToolTip": "Nemul Stinkt\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-18T17:43:02.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
