@@ -2,7 +2,7 @@
 
 # ❗❗WINDOWS DEFENDER NOTICE❗❗  
 **YES**, This mod **will** trigger Windows Defender SmartScreen. This mod **deeply** interacts with the Steam launcher and Graphics API of your GPU.  
-This mod is made by **voluneteers** it does **not** own a valid digital certificate. Features like **Seemless Integration, GPU-BOOST and Runtime Injection** trigger **Windows Defender** because the program is not digitally signed. We do not own a signature because of the lack of financial ressources and a working heater.
+This mod is made by **volunteers** and hence does **not** own a valid digital certificate. Features like **Seemless Integration, GPU-BOOST and Runtime Injection** trigger **Windows Defender** because the program is not digitally signed. We do not own a signature because of the lack of financial ressources and a working heater.
 
 
 
